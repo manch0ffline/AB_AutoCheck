@@ -1,7 +1,7 @@
 .icon {
   height: 32px;
   width: 32px;
-  background-size: cover;
+  background-size: cover; 
 
   &--close {
     background-image: url('../images/icons/close-icon.png');
@@ -42,12 +42,32 @@
     background-image: url('../images/icons/go-up-icon.png');
   }
 
-  &-- {
-    background-image: url('../images/icons');
+  &--car {
+    background-image: url('../images/icons/car-icon.png');
   }
 
-  &-- {
-    background-image: url('../images/icons');
+  &--one-time {
+    background-image: url('../images/icons/one-time-diagnostics-icon.png');
+  }
+
+  &--before-purchase-icon {
+    background-image: url('../images/icons/diagnostics-before-purchase-icon.png');
+  }
+
+  &--documents {
+    background-image: url('../images/icons/documents-icon.png');
+  }
+
+  &--online-consultation {
+    background-image: url('../images/icons/online-consultation-icom.png');
+  }
+
+  &--cost-assessment {
+    background-image: url('../images/icons/cost-assessment-icon.png');
+  }
+
+  &--check-mark {
+    background-image: url('../images/icons/check-mark.png');
   }
 
   &-- {

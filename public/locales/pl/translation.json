@@ -1,37 +1,37 @@
 {
   "header": {
-    "title": "Kompleksowy <br /> dobór samochodu 'pod klucz'",
-    "overview": "Pomagamy dobrać idealny <br /> samochód według Twoich kryteriów"
+    "title": "Kompleksowy <br /> dobór samochodu na klucz",
+    "overview": "Pomożemy dobrać idealny <br /> samochód według twoich kryteriów"
   },
   "button": {
-    "submitRequest": "Złóż wniosek"
+    "submitRequest": "Zostaw wniosek"
   },
   "services": {
     "title": "Nasze usługi",
     "accordion": {
       "sectionOne": {
-        "title": "Kompleksowy dobór samochodu 'pod klucz'",
-        "description": "Zajmujemy się całym procesem: wyszukiwanie, sprawdzenie, diagnostyka, negocjacje, sprawdzenie dokumentów i obsługa transakcji. Klient otrzymuje tylko najlepsze opcje oraz finalny raport z wybranego samochodu"
+        "title": "Pełny dobór samochodu \"na klucz\"",
+        "description": "Przejmujemy cały proces: poszukiwanie, kontrola, diagnostyka, negocjacje, kontrola dokumentów i pomoc przy finalizacji transakcji. Klient otrzymuje tylko najlepsze opcje oraz finalny raport dotyczący wybranego samochodu"
       },
       "sectionTwo": {
-        "title": "Jednorazowe sprawdzenie wybranego samochodu",
-        "description": "Odwiedzamy konkretne ogłoszenie. Na miejscu sprawdzamy nadwozie, silnik, zawieszenie, elektronikę, przeprowadzamy diagnostykę, mierzymy lakier i wydajemy werdykt: brać czy nie brać."
+        "title": "Jednorazowa kontrola wybranego samochodu",
+        "description": "Wyruszamy na konkretne ogłoszenie. Na miejscu sprawdzamy nadwozie, silnik, zawieszenie, elektronikę, wykonujemy diagnostykę, mierzymy grubość lakieru i wydajemy werdykt: brać czy nie brać"
       },
       "sectionThree": {
         "title": "Diagnostyka przed zakupem",
-        "description": "Skupiamy się na stanie technicznym. Określamy ukryte problemy, rzeczywiste inwestycje w najbliższym czasie, oceniamy ryzyko. Odpowiednie, jeśli klient jest prawie zdecydowany."
+        "description": "Skupiamy się na stanie technicznym. Określamy ukryte problemy, rzeczywiste inwestycje w najbliższym czasie, oceniamy ryzyko. Pasuje, jeśli klient jest już prawie zdecydowany"
       },
       "sectionFour": {
-        "title": "Dobór samochodu pod budżet",
-        "description": "Podajesz kwotę — my dobieramy optymalne opcje w tej cenie. Naszym zadaniem jest znalezienie najbardziej niezawodnego i sprawnego samochodu bez przepłacania."
+        "title": "Sprawdzanie dokumentów i czystości prawnej",
+        "description": "Sprawdzamy VIN, historię serwisową, zapisy ubezpieczeniowe, udział w wypadkach, zastawy, leasing, areszty. Gwarantujemy, że samochód jest prawnie czysty i bezpieczny do zakupu"
       },
       "sectionFive": {
-        "title": "Sprawdzanie dokumentów i legalności",
-        "description": "Sprawdzamy VIN, historię serwisową, zapisy ubezpieczeniowe, udział w wypadkach, obciążenia, leasingi, zatrzymania. Gwarantujemy, że samochód jest legalny i bezpieczny do zakupu."
+        "title": "Konsultacje online przed zakupem",
+        "description": "Oceniamy ogłoszenie zdalnie: po zdjęciach, opisie, filmie i historii. Od razu mówimy, czy warto jechać oglądać, czy lepiej nie tracić czasu"
       },
       "sectionSix": {
-        "title": "Konsultacje online przed zakupem",
-        "description": "Oceniany ogłoszenie zdalnie: po zdjęciach, opisie, wideo i historii. Mówimy od razu, czy warto jechać obejrzeć, czy lepiej nie tracić czasu."
+        "title": "Ocena wartości samochodu",
+        "description": "Przeprowadzimy profesjonalną ocenę samochodu przed zakupem, aby zrozumieć jego rzeczywistą wartość"
       }
     }
   }
