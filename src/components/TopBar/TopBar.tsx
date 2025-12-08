@@ -24,12 +24,26 @@ const TopBar: React.FC<Props> = ({ isMenu = false }) => {
         {!isMenu && <ChangeLanguage />}
 
         {isMenu ? (
-          <a
-            href="#"
-            className="d-lg-none text-end d-block icon icon--close"
-          ></a>
+          <div
+            className="d-lg-none d-block rounded-circle p-2"
+            style={{
+              backgroundColor: '#ffffffcf',
+            }}
+          >
+            <a
+              href="#"
+              className="d-lg-none text-end d-block icon icon--close"
+            ></a>
+          </div>
         ) : (
-          <a href="#menu" className="d-lg-none d-block icon icon--menu"></a>
+          <div
+            className="d-lg-none d-block rounded-circle p-2"
+            style={{
+              backgroundColor: '#ffffffcf',
+            }}
+          >
+            <a href="#menu" className="d-lg-none d-block icon icon--menu"></a>
+          </div>
         )}
       </div>
     </div>
