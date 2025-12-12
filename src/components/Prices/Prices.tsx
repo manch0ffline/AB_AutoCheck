@@ -6,8 +6,12 @@ function Prices() {
       <div className="container">
         <div className="prices__content d-flex flex-column align-items-center gap-3">
           <div className="prices__info">
-            <h2 className="fs-1 text-center">Цены</h2>
-            <p className="prices__description text-center">
+            <h2 className="fs-1 text-center" style={{
+              color: '#e5c053'
+            }}>Цены</h2>
+            <p className="prices__description text-center fw-light" style={{
+              color: '#ded7bbff'
+            }}>
               Мы предлагаем прозрачное ценообразование без скрытых платежей. Вы
               можете выбрать подходящий тариф для своих нужд
             </p>
