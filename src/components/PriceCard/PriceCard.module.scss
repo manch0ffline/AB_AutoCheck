@@ -1,26 +1,21 @@
 .price-card {
   transition: all 0.2s ease;
   padding: 30px;
-  border: 1px solid #757859;
+  border: 1px solid #3d3920;
   border-radius: 10px;
   width: 230px;
-  background-color: #3c3f268a;
+  background-color: #1d1a07;
   color: $white-color;
 
   &:hover {
-    transform: scale(1.03);
     background-color: #282812;
     border: 1px solid $main-yellow-color;
   }
 
   &--rec {
-    border: 1px solid #a59e22;
-    box-shadow: 0px 0px 20px 1px $main-yellow-color;
+    border: 1px solid #c8b685;
+    box-shadow: 0px 0px 20px 10px #48370a;
     transform: scale(1.1);
-
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 
   &__btn {
@@ -29,7 +24,7 @@
     border: none;
     background-color: transparent;
     border-radius: 10px;
-    border: 1px solid $main-yellow-color;
+    border: 1px solid #c8b685;
     color: #fff;
 
     &:hover {
