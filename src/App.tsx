@@ -1,3 +1,4 @@
+import Contacts from './components/Contacts/Contacts';
 import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 // import Prices from './components/Prices/Prices';
@@ -34,6 +35,7 @@ function App() {
           <div className="app__line"></div>
           <Services />
           <ServicesDetails />
+          <Contacts />
           {/* <Prices /> */}
         </main>
       </div>

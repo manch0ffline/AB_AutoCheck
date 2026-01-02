@@ -54,8 +54,17 @@
     background-size: cover;
     background-image: url('../images/icons/prem-icon.png');
   }
-  &-- {
-    background-image: url('../images/icons');
+  &--insta {
+    background-image: url('../images/icons/insta-icono.png');
+  }
+  &--facebook {
+    background-image: url('../images/icons/facebook-icon.png');
+  }
+  &--phone {
+    background-image: url('../images/icons/phone-icon.png');
+  }
+  &--telegram {
+    background-image: url('../images/icons/telegram-icon.png');
   }
   &-- {
     background-image: url('../images/icons');
