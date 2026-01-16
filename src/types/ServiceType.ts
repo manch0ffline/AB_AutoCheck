@@ -3,5 +3,8 @@ export type Service = {
   title: string;
   price: string;
   icon: string;
-  description: string[];
+  description: string;
+  includedServices: string[];
+  guarantee?: string
+  suitableFor?: string
 };

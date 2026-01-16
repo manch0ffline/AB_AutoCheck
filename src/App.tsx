@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -19,6 +20,8 @@ function goUp() {
 }
 
 function App() {
+  const [activeDetail, setActiveDetail] = useState(1);
+
   return (
     <>
       <div className="app x">
@@ -34,8 +37,8 @@ function App() {
           </a>
 
           <div className="app__line"></div>
-          <Services />
-          <ServicesDetails />
+          <Services setActiveDetail={setActiveDetail}/>
+          <ServicesDetails activeDetail={activeDetail}/>
           <Contacts />
           <Footer />
         </main>

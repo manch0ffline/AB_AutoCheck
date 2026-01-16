@@ -1,11 +1,16 @@
+import type React from 'react';
 import { services } from '../../data';
 
-function ServicesDetails() {
+type Props = {
+  activeDetail: number,
+}
+
+const ServicesDetails: React.FC<Props> = ({activeDetail}) => {
   return (
-    <div className="services-details w-100 py-5 px-3" id='services-details'>
+    <div className="services-details  services-details__container w-100 py-5 px-3" id="services-details">
       <div className="container d-flex flex-column gap-4">
         <h2 className="fs-1 services-details__title text-center ">
-          Детали подбора
+          Детали услуг
         </h2>
 
         <div className="row gy-4">
@@ -37,12 +42,12 @@ function ServicesDetails() {
                     <h2 className="accordion-header" id={headingId}>
                       <button
                         className={`accordion-button ${
-                          item.id !== 1 ? 'collapsed' : ''
+                          item.id !== activeDetail ? 'collapsed' : ''
                         }`}
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target={`#${collapseId}`}
-                        aria-expanded={item.id === 1 ? 'true' : 'false'}
+                        aria-expanded={item.id === activeDetail ? 'true' : 'false'}
                         aria-controls={collapseId}
                       >
                         {item.title}
@@ -52,15 +57,20 @@ function ServicesDetails() {
                     <div
                       id={collapseId}
                       className={`accordion-collapse collapse ${
-                        item.id === 1 ? 'show' : ''
+                        item.id === activeDetail ? 'show' : ''
                       }`}
                       aria-labelledby={headingId}
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body services-details__info">
-                        {item.description.map((desc) => (
-                          <p>{desc}</p>
+                        <span className="m-0  services-details__aditional-info">{item?.suitableFor}</span>
+
+                        {item.includedServices.map((desc) => (
+                          <>
+                            <p>{desc}</p>
+                          </>
                         ))}
+                        <span className="m-0 services-details__aditional-info">{item?.guarantee}</span>
                       </div>
                     </div>
                   </div>

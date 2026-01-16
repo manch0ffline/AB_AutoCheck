@@ -5,11 +5,11 @@
       #19170d 100%);
 
   &__title {
-    color: #e5c053;
+    color: $title-color;
   }
 
   &__main-color {
-    color: #cfcfcf;
+    color: $grey-text-color;
   }
 
   &__hr {
@@ -32,7 +32,7 @@
   }
 
   &__highlight {
-    color: #b6bb9c;
+    color: $highlight-color;
   }
 
   &__main-text {
@@ -41,6 +41,6 @@
 
   &__sub-title {
     font-size: 16px;
-    color: #9a9a9a;
+    color: $sub-title;
   }
 }

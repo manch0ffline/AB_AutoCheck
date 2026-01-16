@@ -1,36 +1,22 @@
 .services-details {
-  background-color: $yellow-light;
+  background-color: $yellow-dark;
 
-  & .accordion-button {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 16px 20px;
-  }
+  &__container {
+    background: linear-gradient(180deg,
+      $yellow-dark 0%,
+      #181913 10%,
+      #19170d 90%,
+      $yellow-dark 100%);
 
-  & .accordion-button:not(.collapsed) {
-    background-color: #eaeac9;
-    color: #000000;
-  }
-
-  & .campaigns-accordion {
-    .accordion-button {
-      font-size: 14px;
-      font-weight: 500;
-      padding: 16px 20px;
-    }
-
-    .accordion-button:not(.collapsed) {
-      background-color: #1f1f1f;
-      color: #09b850;
-    }
-  }
-
-  & .accordion-body {
-    background-color: #fefef9;
+    padding: 20px;
   }
 
   &__title {
-    color: $yellow-dark;
+    color: $title-color;
+  }
+
+  &__aditional-info {
+    color:$yellow-light;
   }
 
   &__info {
@@ -38,11 +24,13 @@
     flex-direction: column;
     gap: 5px;
 
+
     & p {
       padding-left: 25px;
       position: relative;
-      color: #000000;
+      color:$yellow-light;
       margin: 0;
+
 
       &::before {
         content: '';
@@ -73,8 +61,8 @@
   }
 
   &__salesman-info {
-     color: $yellow-dark;
-     
+    color: $yellow-light;
+
     & span {
       font-size: 20px;
       font-weight: 700;
@@ -85,4 +73,63 @@
       font-weight: 500;
     }
   }
+}
+
+.services-details .accordion-item {
+  background: #14160f;
+  border-radius: 10px;
+  border-left: 3px solid #e6c45a;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Header button */
+.services-details .accordion-button {
+  background: #14160f;
+  color: #f1f1f1;
+  font-weight: 500;
+  padding: 18px 20px;
+  border: none;
+}
+
+/* Hover */
+.services-details .accordion-button:hover {
+  background: #1b1f16;
+}
+
+/* Active (open) */
+.services-details .accordion-button:not(.collapsed) {
+  background: #1b1f16;
+  color: #ffffff;
+}
+
+/* Remove default Bootstrap arrow bg */
+.services-details .accordion-button::after {
+  background-image: none;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #e6c45a;
+  border-bottom: 2px solid #e6c45a;
+  transform: rotate(45deg);
+  transition: transform 0.25s ease;
+}
+
+/* Arrow when open */
+.services-details .accordion-button:not(.collapsed)::after {
+  transform: rotate(-135deg);
+}
+
+/* Body */
+.services-details .accordion-body {
+  background: #1b1f16;
+  color: #dcdcdc;
+  padding: 18px 20px;
+  border-top: 1px solid rgba(230, 196, 90, 0.2);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.services-details .accordion-item:first-child {
+  border-top: none;
 }
