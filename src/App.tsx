@@ -30,7 +30,7 @@ function App() {
           <>
             <Menu />
             <Header />
-            <main className="app__main d-flex flex-column gap-5">
+            <main className="app__main d-flex flex-column gap-4">
               <a href="#" className="app__go-up">
                 <div
                   className="icon icon--go-up "
