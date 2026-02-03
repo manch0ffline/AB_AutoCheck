@@ -5,8 +5,10 @@ function Menu() {
   return (
     <aside className="menu w-100" id="menu">
       <div className="container h-100">
-        <TopBar isMenu={true}/>
-        <Navigation/>
+        <div className="menu__content">
+          <TopBar isMenu={true} />
+          <Navigation />
+        </div>
       </div>
     </aside>
   );

@@ -1,9 +1,14 @@
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url(../../images/header-bg.jpeg);
-  background-position: 60% 0;
+  background-image: url(../../images/modile-bg.webp);
+  background-position: 50% 0;
   background-size: cover;
+
+   @media (min-width: 740px) {
+      background-position: 60% 0;
+     background-image: url(../../images/header-bg.webp);
+  }
 
   &__content {
     height: 100%;
