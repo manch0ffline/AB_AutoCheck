@@ -6,9 +6,12 @@ function Header() {
 
   return (
     <header className="header">
+      <div className="header__top-bat-bg">
+        <div className="container">
+          <TopBar />
+        </div>
+      </div>
       <div className="container d-flex flex-column h-100 text-white px-3">
-        <TopBar />
-
         <div className="header__content d-flex flex-column justify-content-center gap-5">
           <div>
             <h1 className="header__title">
@@ -24,10 +27,15 @@ function Header() {
               </p>
             </div>
           </div>
-          <div className="header__button-container ">
+          <div className="header__button-container d-flex gap-3 flex-column flex-sm-row">
             <a href="#contacts" className="header__button--link ">
               <button className="header__button  p-2 fs-5">
                 {t('button.submitRequest')}
+              </button>
+            </a>
+            <a href="#services" className="header__button--link ">
+              <button className="header__button header__button--services  p-2 fs-5">
+               Услуги
               </button>
             </a>
           </div>

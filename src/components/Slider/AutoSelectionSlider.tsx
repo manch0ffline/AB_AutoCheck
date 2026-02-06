@@ -49,7 +49,7 @@ export const AutoSelectionSlider = () => {
   return (
     <div className="auto-slider-section__container" id="forWhom">
       <section className="auto-slider-section">
-        <h2 className="services__title">Для кого подходит автоподбор</h2>
+        <h2 className="title  title--underline">Для кого подходит автоподбор</h2>
         <p className="subtitle">
           Если узнаёте себя хотя бы в одном пункте — автоподбор вам реально
           поможет.

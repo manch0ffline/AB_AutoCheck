@@ -5,6 +5,9 @@
   background-position: 50% 0;
   background-size: cover;
 
+  &__top-bat-bg {
+    background-color: #cdcccc;
+  }
    @media (min-width: 740px) {
       background-position: 60% 0;
      background-image: url(../../images/header-bg.webp);
@@ -24,6 +27,12 @@
 
   &__button {
     @include button();
-    width: 250px;
+    width: 220px;
+
+    &--services {
+      background-color: #eab20817;
+      border: 2px solid $yellowe-color;
+      color: $yellowe-color;
+    }
   }
 }

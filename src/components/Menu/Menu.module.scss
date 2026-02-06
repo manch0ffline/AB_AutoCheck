@@ -10,7 +10,7 @@
   pointer-events: none;
   padding: 10px;
 
-  background: rgba(13, 15, 0, 0.555);
+  background: rgba(168, 168, 168, 0.555);
   backdrop-filter: blur(8px);
   height: 100vh;
 
@@ -20,11 +20,11 @@
   }
 
   &__content {
-    background: rgba(47, 48, 42, 0.123);
+    background: rgba(150, 150, 148, 0.346);
     border-radius: 20px;
     padding: 0px 24px;
     margin: auto;
-    box-shadow: 0 20px 40px rgba(24, 24, 23, 0.5);
+    box-shadow: 0 20px 40px rgba(24, 24, 23, 0.527);
     height: 90vh;
     width: 100%;
   }
